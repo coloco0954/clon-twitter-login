@@ -1,0 +1,25 @@
+---
+import ButtonGoogle from '../components/ButtonGoogle.astro';
+import ButtonApple from '../components/ButtonApple.astro';
+import Line from '../components/Line.astro';
+import ButtonCreate from '../components/ButtonCreate.astro';
+import Terms from '../components/Terms.astro';
+import LoginButton from '../components/LoginButton.astro';
+---
+
+<div class="mt-10 ml-10 md:w-1/2 h-3/4">
+    <h1 class="text-white text-4xl font-bold tracking-wide leading-custom mt-4  md:text-6xl md:leading-custom md:ml-32 md:mt-10">Lo que está pasando ahora</h1>
+    <h2 class="text-white text-2xl font-bold mt-10 md:ml-32 md:text-3xl">Únete Hoy</h2>
+    <ButtonGoogle name='galaxy' mail='nat.lopez.jimenez@gmail.com'/>
+    <ButtonApple/>
+    <Line />
+    <ButtonCreate />
+    <Terms />
+    <LoginButton />
+</div>
+
+<style>
+    h1{
+        font-family: Verdana;
+    }
+</style>

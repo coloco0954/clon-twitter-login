@@ -1,0 +1,11 @@
+---
+const footerElements = ['Información', 'Descarga la app de X', 'Centro de Ayuda', 'Condiciones de Servicio', 'Política de Privacidad', 'Política de cookies', 'Accesibilidad', 'Información de anuncios', 'Blog', 'Estado', 'Empleos', 'Recursos para marcas', 'Publicidad', 'Marketing', 'X para empresas', 'Desarrolladores', 'Guía', 'Configuración', '© 2024 X Corp.'];
+---
+
+<footer class="w-[95%] mt-10 flex flex-wrap justify-center gap-[7px] ml-2 md:mx-12 md:gap-6 md:gap-y-[2px]">
+    {
+        footerElements.map(element => {
+            return <a href="" class="text-zinc-500 hover:underline text-[12.5px] mb-2 leading-tight">{element}</a>
+        })
+    }
+</footer>

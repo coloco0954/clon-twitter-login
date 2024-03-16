@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layouts.astro';
+
+//Components
+import Logo from '../components/Logo.astro';
+import Footer from '../components/Footer.astro';
+import Body from '../components/Body.astro';
+---
+
+<Layout title='Es lo que esta pasando'>
+	<div class="flex flex-col md:flex-row">
+		<Logo/>
+		<Body/>
+	</div>
+
+	<Footer />
+</Layout>

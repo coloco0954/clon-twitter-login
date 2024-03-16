@@ -1,0 +1,20 @@
+---
+interface Props{
+    name: string
+    mail: string
+}
+
+const { name } = Astro.props
+const { mail } = Astro.props
+---
+
+<div class="flex mt-5"> 
+    <button class="bg-white w-[290px] h-[45px] rounded-full flex items-start md:ml-32 md:mt-3 hover:bg-zinc-200">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocK47iRq_SnVA-6os9C9LsClF6puYEXAX46WddizoymKgSc=s96-c" class="w-5 rounded-full mt-3 ml-2">
+        <div>
+            <p class="mt-1 ml-2 text-[13px] text-zinc-900 font-semibold">Inicia sesión como {name}</p>
+            <p class="ml-2 text-[11px] text-zinc-600 font-semibold">{mail}</p>
+        </div>
+        <img src="/google.svg" class="w-[19px] ml-[75px] mt-[12px]">
+    </button>
+</div>
